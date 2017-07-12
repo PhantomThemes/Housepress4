@@ -23,8 +23,29 @@ img {
   height: auto;
 }
 
+.h1,
+h1 {
+  font-size: 42px;
+}
+
 h2 {
   font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #2f3035;
+  font-weight: 700;
 }
 
 .container {
@@ -281,6 +302,21 @@ Widget
   margin-bottom: 15px;
   display: block;
   line-height: 46.2px;
+}
+
+.page-content {
+  font-size: 14px;
+  color: #666;
+  line-height: 16.8px;
+}
+
+pre {
+  background: #eee;
+  padding: 1.6em;
+}
+
+code {
+  font-size: 9.3833px !important;
 }
 
 /*--------------------------
