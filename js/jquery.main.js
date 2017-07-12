@@ -1,6 +1,7 @@
-$('body').on('mouseenter mouseleave','.dropdown',function(e){
-  var _d=$(e.target).closest('.dropdown');_d.addClass('show');
-  setTimeout(function(){
-    _d[_d.is(':hover')?'addClass':'removeClass']('show');
-  },300);
+
+$(document).ready(function(){
+  $('ul li a').click(function(){
+    $('li a').removeClass("active");
+    $(this).addClass("active");
+});
 });
