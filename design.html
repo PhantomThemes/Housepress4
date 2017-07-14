@@ -20,140 +20,147 @@
             <span class="toggler-menu">menu</span>
           </button>
           <div class="navbar-brand">
-           <h1><a href="#">housepress</a></h1>
-           <span>Just another WordPress site</span>
-         </div>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto ">
-            <li class="current_page_item"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="design.html">Design</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="page.html">Page</a></li>
+            <h1><a href="#">housepress</a></h1>
+            <span>Just another WordPress site</span>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+              <!-- <li class="current_page_item"><a href="index.html">Home <span class="sr-only">(current)</span></a></li> -->
+              <li class="current_page_item dropdown add-border"><a href="index.html" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="icon-arrow">Home</span><span class="sr-only icon-arrow">(current)</span></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="index.html">Home v1</a>
+                  <a class="dropdown-item" href="index02.html">Home v2</a>
+                  <a class="dropdown-item" href="indexv2.html">Home v3</a>
+                </ul>
+              </li>
+              <li><a href="design.html">Design</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="page.html">Page</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+    <main id="main">
+      <div class="content-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="page-title">Category: Design</div>
+              <div class="site-main row">
+                <div class="col-lg-6">
+                  <div class="card">
+                    <a href="#"><img src="images/pantone.jpg" alt="image description"></a>
+                    <div class="card-block">
+                      <h2 class="card-title"><a href="#">Vestibulum a Felis Sem</a></h2>
+                      <div class="entry-meta">
+                        <span class="posted-on">Posted on<a href="#"><time datetime="2017-09-07" pubdate="pubdate"></time>June 12, 2017</a></span>
+                      </div>
+                      <p class="card-text">Aenean suscipit aliquam nulla, non porta turpis tristique id. Vestibulum a felis sem, sed vulputate nibh. Proin tristique suscipit ligula vitae venenatis. Uis vel elit eu elit consequat tristique ut ac risus. Morbi ut dui sed eros porttitor tristique. Quisque pulvinar lectus et metus vestibulum dictum. Mauris dolor dolor, dignissim nec adipiscing a, mollis eget [...]</p>
+                      <span class="cat-links">Posted in <a href="#">News</a></span>
+                      <span class="comments-link"><a href="#">Leave a comment</a></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="card">
+                    <a href="#"><img src="images/tree.jpg" alt="image description"></a>
+                    <div class="card-block">
+                      <h2 class="card-title"><a href="#">Proin Tristique Suscipit</a></h2>
+                      <div class="entry-meta">
+                        <span class="posted-on">Posted on<a href="#"><time datetime="2017-09-07" pubdate="pubdate"></time>June 12, 2017</a></span>
+                      </div>
+                      <p class="card-text">Pellentesque pharetra neque et tortor iaculis lacinia. Aenean suscipit aliquam nulla, non porta turpis tristique id. Vestibulum a felis sem, sed vulputate nibh. Proin tristique suscipit ligula vitae venenatis. Uis vel elit eu elit consequat tristique ut ac risus. Morbi ut dui sed eros porttitor tristique. Quisque pulvinar lectus et metus vestibulum dictum. Mauris dolor [...]</p>
+                      <span class="cat-links">Posted in <a href="#">Design</a></span>
+                      <span class="tags-links">Tagged <a href="#">Design</a>, <a href="#"> ipsum</a>, <a href="#">lorem</a>, <a href="#">news</a>, <a href="#">photo</a></span>
+                      <span class="comments-link"><a href="#">Leave a comment</a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 widget-area">
+              <div class="widget">
+                <form class="search-form" action="#">
+                  <input class="search-field" placeholder="Search ..." value="" name="s" type="search">
+                  <input class="search-submit" value="Search" type="submit">
+                </form>
+              </div>
+              <div class="widget">
+                <h3>Recent Posts</h3>
+                <ul>
+                  <li><a href="#">Quisque Porta Lorem</a></li>
+                  <li><a href="#">Vestibulum a Felis Sem</a></li>
+                  <li><a href="#">Proin Tristique Suscipit</a></li>
+                  <li><a href="#">Lorem Ipsum Dolor</a></li>
+                  <li><a href="#">Hello world!</a></li>
+                </ul>
+              </div>
+              <div class="widget">
+                <h3>Recent Comments</h3>
+                <ul>
+                  <li><a href="#">A WordPress Commenter</a> on <a href="#">Hello world!</a></li>
+                </ul>
+              </div>
+              <div class="widget">
+                <h3>Archives</h3>
+                <ul>
+                  <li><a href="#">June 2017</a></li>
+                </ul>
+              </div>
+              <div class="widget">
+                <h3>Categories</h3>
+                <ul>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">News </a></li>
+                </ul>
+              </div>
+              <div class="widget">
+                <h3>Meta</h3>
+                <ul>
+                  <li><a href="#">Log in</a></li>
+                  <li><a href="#">Entries RSS</a></li>
+                  <li><a href="#">Comments RSS</a></li>
+                  <li><a href="#">WordPress.org</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="pagination-block"><!-- pagination start -->
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+          </div><!-- pagination end -->
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <div class="copy-right">Copyright housepress 2017.All Rights Reserved. | Design by : <a href="#">Phantom Themes </a></div>
+        <div class="menu-footer">
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Page</a></li>
           </ul>
         </div>
-      </nav>
-    </div>
-  </header>
-  <!-- end header -->
-  <main id="main">
-    <div class="content-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9">
-            <div class="page-title">Category: Design</div>
-            <div class="site-main row">
-              <div class="col-lg-6">
-                <div class="card">
-                  <a href="#"><img src="images/pantone.jpg" alt="image description"></a>
-                  <div class="card-block">
-                    <h2 class="card-title"><a href="#">Vestibulum a Felis Sem</a></h2>
-                    <div class="entry-meta">
-                      <span class="posted-on">Posted on<a href="#"><time datetime="2017-09-07" pubdate="pubdate"></time>June 12, 2017</a></span>
-                    </div>
-                    <p class="card-text">Aenean suscipit aliquam nulla, non porta turpis tristique id. Vestibulum a felis sem, sed vulputate nibh. Proin tristique suscipit ligula vitae venenatis. Uis vel elit eu elit consequat tristique ut ac risus. Morbi ut dui sed eros porttitor tristique. Quisque pulvinar lectus et metus vestibulum dictum. Mauris dolor dolor, dignissim nec adipiscing a, mollis eget [...]</p>
-                    <span class="cat-links">Posted in <a href="#">News</a></span>
-                    <span class="comments-link"><a href="#">Leave a comment</a></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="card">
-                  <a href="#"><img src="images/tree.jpg" alt="image description"></a>
-                  <div class="card-block">
-                    <h2 class="card-title"><a href="#">Proin Tristique Suscipit</a></h2>
-                    <div class="entry-meta">
-                      <span class="posted-on">Posted on<a href="#"><time datetime="2017-09-07" pubdate="pubdate"></time>June 12, 2017</a></span>
-                    </div>
-                    <p class="card-text">Pellentesque pharetra neque et tortor iaculis lacinia. Aenean suscipit aliquam nulla, non porta turpis tristique id. Vestibulum a felis sem, sed vulputate nibh. Proin tristique suscipit ligula vitae venenatis. Uis vel elit eu elit consequat tristique ut ac risus. Morbi ut dui sed eros porttitor tristique. Quisque pulvinar lectus et metus vestibulum dictum. Mauris dolor [...]</p>
-                    <span class="cat-links">Posted in <a href="#">Design</a></span>
-                    <span class="tags-links">Tagged <a href="#">Design</a>, <a href="#"> ipsum</a>, <a href="#">lorem</a>, <a href="#">news</a>, <a href="#">photo</a></span>
-                    <span class="comments-link"><a href="#">Leave a comment</a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 widget-area">
-            <div class="widget">
-              <form class="search-form" action="#">
-                <input class="search-field" placeholder="Search ..." value="" name="s" type="search">
-                <input class="search-submit" value="Search" type="submit">
-              </form>
-            </div>
-            <div class="widget">
-              <h3>Recent Posts</h3>
-              <ul>
-                <li><a href="#">Quisque Porta Lorem</a></li>
-                <li><a href="#">Vestibulum a Felis Sem</a></li>
-                <li><a href="#">Proin Tristique Suscipit</a></li>
-                <li><a href="#">Lorem Ipsum Dolor</a></li>
-                <li><a href="#">Hello world!</a></li>
-              </ul>
-            </div>
-            <div class="widget">
-              <h3>Recent Comments</h3>
-              <ul>
-                <li><a href="#">A WordPress Commenter</a> on <a href="#">Hello world!</a></li>
-              </ul>
-            </div>
-            <div class="widget">
-              <h3>Archives</h3>
-              <ul>
-                <li><a href="#">June 2017</a></li>
-              </ul>
-            </div>
-            <div class="widget">
-              <h3>Categories</h3>
-              <ul>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">News </a></li>
-              </ul>
-            </div>
-            <div class="widget">
-              <h3>Meta</h3>
-              <ul>
-                <li><a href="#">Log in</a></li>
-                <li><a href="#">Entries RSS</a></li>
-                <li><a href="#">Comments RSS</a></li>
-                <li><a href="#">WordPress.org</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="pagination-block"><!-- pagination start -->
-          <nav aria-label="Page navigation">
-            <ul class="pagination">
-              <li class="page-item active"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
-          </nav>
-        </div><!-- pagination end -->
       </div>
-    </div>
-  </main>
-  <footer id="footer">
-    <div class="container">
-      <div class="copy-right">Copyright housepress 2017.All Rights Reserved. | Design by : <a href="#">Phantom Themes </a></div>
-      <div class="menu-footer">
-        <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Design</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Page</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-</div><!-- end wrapper -->
-<!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<!-- Template main Js -->
-<script src="js/jquery.main.js"></script>
+    </footer>
+  </div><!-- end wrapper -->
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <!-- Template main Js -->
+  <script src="js/jquery.main.js"></script>
 </body>
 </html>
