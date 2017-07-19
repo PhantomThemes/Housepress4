@@ -49,9 +49,8 @@ h4 {
 	margin-bottom: 15px;
 }
 
-.container {
+.container-wrap {
 	max-width: 1170px;
-	width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
