@@ -57,7 +57,7 @@ h4 {
 
 button,
 *:focus {
-		outline: 0;
+	outline: 0;
 }
 
 .btn {
@@ -171,7 +171,7 @@ Main
 }
 
 .banner .carousel-item .carousel-caption h3 {
-	font-size: 34px;
+	font-size: 24px;
 	color: #fff;
 }
 
@@ -204,7 +204,7 @@ Main
 .site-main .card .card-title a {
 	color: #2f3035;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .site-main .card .card-title a:hover {
@@ -244,9 +244,9 @@ Widget
 
 .widget {
 	background: #fff;
-	padding: 30px;
+	padding: 5px;
 	border-top: 3px solid #49b084;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .widget h3 {
@@ -412,6 +412,30 @@ Clearings
 --------------------------------------------------------------*/
 
 @media(min-width: 767px) {
+	.site-main .card .card-title a {
+		font-size: 30px;
+	}
+
+	#footer {
+		padding: 24px 0;
+	}
+
+	#footer .menu-footer {
+		margin-left: auto;
+	}
+
+	#footer .menu-footer .menu li {
+		padding: 0 20px;
+		margin: 0;
+	}
+
+	#footer .container-wrap {
+		display: flex;
+		justified-content: flex-end;
+	}
+}
+
+@media(min-width: 992px) {
 	#header .navbar-nav > li > a {
 		background: #000;
 	}
@@ -439,23 +463,14 @@ Clearings
 		box-shadow: 0 5px 0 #4cba8a;
 	}
 
-	#footer {
-		padding: 24px 0;
+	.widget {
+		background: #fff;
+		padding: 30px;
+		border-top: 3px solid #49b084;
+		margin-bottom: 30px;
 	}
 
-	#footer .menu-footer {
-		margin-left: auto;
-	}
-
-	#footer .menu-footer .menu li {
-		padding: 0 20px;
-		margin: 0;
-	}
-}
-
-@media(min-width: 992px) {
-	#footer .container {
-		display: flex;
-		justified-content: flex-end;
+	.banner .carousel-item .carousel-caption h3 {
+		font-size: 34px;
 	}
 }
